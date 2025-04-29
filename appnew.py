@@ -11,10 +11,10 @@ app = Flask(__name__)
 
 # Database connection
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Blr@2025",  # Replace with your MySQL password
-    database="ID_APP"
+    host="",
+    user="",
+    password="",  # Replace with your MySQL password
+    database=""
 )
 
 cursor = db.cursor()
