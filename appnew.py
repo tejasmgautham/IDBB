@@ -11,10 +11,10 @@ app = Flask(__name__)
 
 # Database connection
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Blr@2025",  # Replace with your MySQL password
-    database="ID_APP"
+    host="",
+    user="",
+    password="",  # Replace with your MySQL password
+    database=""
 )
 
 cursor = db.cursor()
@@ -23,8 +23,8 @@ cursor = db.cursor()
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'  # Change for other email providers
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'tejasmgauthamapcogsys@gmail.com'  # Replace with your email
-app.config['MAIL_PASSWORD'] = 'okad mgmt qpzk hfij'  # Use an App Password
+app.config['MAIL_USERNAME'] = ''  # Replace with your email
+app.config['MAIL_PASSWORD'] = ''  # Use an App Password
 app.config['MAIL_DEFAULT_SENDER'] = 'your-email@gmail.com'
 # app.config['MAIL_SERVER'] = 'smtp.email.ap-mumbai-1.oci.oraclecloud.com'
 # app.config['MAIL_PORT'] = 587  # 587 for STARTTLS
