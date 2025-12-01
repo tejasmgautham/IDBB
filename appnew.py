@@ -7,6 +7,7 @@ from flask_mail import Mail, Message
 import requests
 
 
+
 app = Flask(__name__)
 
 # Database connection
